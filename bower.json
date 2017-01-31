@@ -1,0 +1,26 @@
+{
+  "name": "angulartics-twitter-pixel",
+  "homepage": "https://github.com/cesarvarela/angulartics-twitter-pixel",
+  "authors": [
+    "Cesar Varela <mail@cesarvarela.com>"
+  ],
+  "description": "Twitter Pixel plugin for Angulartics",
+  "main": "./dist/angulartics-twitter-pixel.min.js",
+  "keywords": [
+    "angularjs",
+    "angulartics",
+    "analytics",
+    "twitter",
+    "pixel",
+    "twitter-pixel",
+    "angulartics-plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

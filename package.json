@@ -1,0 +1,36 @@
+{
+  "name": "angulartics-twitter-pixel",
+  "version": "0.2.0",
+  "description": "Twitter Pixel plugin for Angulartics",
+  "main": "./lib/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && uglifyjs lib/angulartics-twitter-pixel.js --compress --source-map dist/angulartics-twitter-pixel.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-twitter-pixel.min.js.map -o dist/angulartics-twitter-pixel.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/çesarvarela/angulartics-twitter-pixel.git"
+  },
+  "keywords": [
+    "angularjs",
+    "angulartics",
+    "analytics",
+    "twitter",
+    "pixel",
+    "twitter-pixel",
+    "angulartics-plugin"
+  ],
+  "author": "Cesar Varela <mail@cesarvarela.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarvarela/angulartics-twitter-pixel/issues"
+  },
+  "homepage": "https://github.com/cesarvarela/angulartics-twitter-pixel#readme",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  },
+  "dependencies": {
+    "angulartics": "^1.0.3"
+  }
+}
